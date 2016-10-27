@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Playing" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".LibraryActivity"></activity>
     </application>
 
 </manifest>
