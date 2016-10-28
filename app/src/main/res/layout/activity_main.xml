@@ -13,29 +13,32 @@
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
     <TextView
-
+        android:id="@+id/playingView"
         style="@style/CategoryStyle"
         android:background="@color/colorNowPlaying"
         android:text="Now Playing" />
 
     <TextView
+        android:id="@+id/homeView"
         style="@style/CategoryStyle"
         android:background="@color/colorHome"
         android:text="Home" />
 
     <TextView
+        android:id="@+id/searchView"
         style="@style/CategoryStyle"
         android:background="@color/colorSearch"
         android:text="Search" />
 
     <TextView
+        android:id="@+id/exploreView"
         style="@style/CategoryStyle"
         android:background="@color/colorExplore"
-        android:text="Explore"
-        />
+        android:text="Explore" />
+
     <TextView
+        android:id="@+id/libraryView"
         style="@style/CategoryStyle"
         android:background="@color/colorLibrary"
-        android:text="Library"
-        />
+        android:text="Library" />
 </LinearLayout>

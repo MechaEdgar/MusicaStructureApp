@@ -15,11 +15,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Playing" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".ExploreActivity" />
-        <activity android:name=".LibraryActivity"></activity>
+        <activity
+            android:name=".Playing"
+            android:label="Playing" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search" />
+        <activity
+            android:name=".ExploreActivity"
+            android:label="Explore" />
+        <activity
+            android:name=".LibraryActivity"
+            android:label="Library"></activity>
     </application>
 
 </manifest>

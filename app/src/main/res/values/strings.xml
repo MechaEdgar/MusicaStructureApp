@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MusicalStructureApp</string>
+    <!--Description of the function for Playing activity-->
+    <string name="playFunction">On play function the idea is have the play, pause, skip song and back
+    song very minimalist, very elegant</string>
+    <!--Description of the function for exploreActivity -->
+    <string name="exploreFunction">This activity will show to the user suggested playlists and new releases of their
+    favorite artist.</string>
+    <!--Description of the function for homeActivity -->
+    <string name="homeFunction">This activity will show to the user the hits of the day and show
+        the playlist that was created by the user.</string>
+    <!--Description of the function for libraryActivity -->
+    <string name="libraryFunction">This activity will show to the user their playlist and favorites songs .</string>
+    <!--Description of the function for searchActivity -->
+    <string name="searchFunction">In this activity the user can search music from the catalog of online music
+        and music in the device using the google music API.</string>
 </resources>
